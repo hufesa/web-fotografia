@@ -42,4 +42,18 @@ display: flex;
 
 #imagenes-secundarias{
   background-color: #d5c75f;
+  border: solid 1px;
+}
+
+.contenedor {
+	display: flex;
+	flex-direction: row;
+}
+
+#imagenes-secundarias .contenedor > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+
 }
