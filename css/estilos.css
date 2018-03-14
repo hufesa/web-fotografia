@@ -1,4 +1,45 @@
 #titulo{
 
-    background-color: #669999;
+    background-color: #5b7989;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+   	border-radius: 10px 10px 0 0;
+    }
+
+#titulo h1 {
+	text-shadow: 0 0 3px #02010a;
+  padding-left: 3%;
+}
+
+#menu-principal{
+  text-align: right;
+}
+
+#navbar{
+perspective-origin: right;
+margin: auto 0;
+padding-left: 80%;
+}
+
+li{
+list-style: none;
+text-align: right;
+padding: 10px;
+}
+li a{
+color: #FFF;
+}
+
+ul{
+display: flex;
+}
+
+#imagen-central{
+  background-color: #82c3a6;
+  text-align: center;
+}
+
+#imagenes-secundarias{
+  background-color: #d5c75f;
 }
