@@ -9,18 +9,22 @@
 
 #titulo h1 {
 	text-shadow: 0 0 3px #02010a;
-  padding-left: 3%;
+
 }
 
-#menu-principal{
-  text-align: right;
+.solodos {
+	display: flex;
+	flex-direction: row;
 }
 
-#navbar{
-perspective-origin: right;
-margin: auto 0;
-padding-left: 80%;
+#titulo .solodos > div {
+  text-align: center;
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+
 }
+
 
 li{
 list-style: none;
@@ -42,7 +46,7 @@ display: flex;
 
 #imagenes-secundarias{
   background-color: #d5c75f;
-  border: solid 1px;
+
 }
 
 .contenedor {
@@ -55,5 +59,21 @@ display: flex;
 	padding: 10px;
 	margin: 10px;
 	width: 50%;
+}
 
+footer{
+	padding-top: 10px;
+	border-radius: 0 0 10px 10px;
+  background-color: #C6d5c5;
+}
+
+.columnas {
+	display: flex;
+	flex-direction: row;
+}
+
+#piedepagina .columnas > div {
+text-align: center;
+padding: 10px;
+width: 25%;
 }
