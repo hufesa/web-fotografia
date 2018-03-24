@@ -11,43 +11,21 @@ header{
   padding: 15px 0;
   display: flex;
   display: -webkit-flex;
-
-}
-#titulo-izq{
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+}#titulo-izq{
   width: 70%;
   text-indent: 15px;
-}
-#titulo-der{
+}#titulo-der{
   width: 30%;
   font-size: 18pt;
-}
-#titulo-der a, #titulo-der a:hover{
+  }#titulo-der a, #titulo-der a:hover{
   color: #fff;
   padding: 5px 10px;
 }
-
 #titulo-der a + a::before {
   color: #fff;
   text-decoration: none;
-}
-#titulo-der .actual{
-  text-decoration: none;
-}
-
-
-
-
-ul{
-display: flex;
-}
-
-li{
-list-style: none;
-text-align: right;
-padding: 10px;
-}
-li a{
-color: #FFF;
 }
 
 #primera-fila{
@@ -67,6 +45,7 @@ img{
   background: #d5c75f;
   min-height: 100px;
   padding: 20px 0;
+  box-sizing: border-box;
 }
 .imagenes{
   width: 50%;
@@ -94,30 +73,6 @@ img{
   transform: translate(20px, -5px);
 }
 
-
-@media screen and (max-width:480px)
-
- #contenido {
-   with: 100%;
-   margin:0 auto;
- }
-
- #imagen-central{
-   width: 100%;
- }
-
-
- #imagen-izquierda{
-   width: 100%;
- }
-
- #imagen-derecha{
-   width: 100%;
- }
-
-
-
-
 footer{
 	padding-top: 10px;
 	border-radius: 0 0 10px 10px;
@@ -127,9 +82,36 @@ footer{
 display: -webkit-flex;
 flex-flow: row wrap;
 -webkit-flex-flow: row wrap;
+padding: 5px 10px;
+
 }
 
 footer .columnas {
-	display: flex;
-	flex-direction: row;
+width: 25%;
+text-align: center;
+}
+
+.iconos{
+  width: 15px;
+}
+
+
+@media screen and (max-width:1000px){
+
+ #contenido {
+    width: 100%;
+   	margin: 0 auto;
+    min-height: 200px;
+ }
+ #titulo-izq, #titulo-der{
+   width: 100%;
+   text-align: center;
+ }
+ .imagenes{
+   width: 100%;
+ }
+ footer .columnas{
+     width: 100%;
+     box-sizing: border-box;
+   }
 }
