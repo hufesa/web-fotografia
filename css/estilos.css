@@ -73,6 +73,29 @@ img{
   transform: translate(20px, -5px);
 }
 
+#fila-uno, #fila-dos{
+	color:black;
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  background: #d5c75f;
+  min-height: 100px;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+.imagen{
+  width: 33%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+.pict{
+  border: 2px solid black;
+}
+
+
+
 footer{
 	padding-top: 10px;
 	border-radius: 0 0 10px 10px;
